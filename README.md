@@ -37,7 +37,3 @@ The application will be available on port 3000.
 - Images temporarily cached (1 hour max) for processing
 - All history stored in browser's localStorage
 - Automatic cleanup of temporary files
-
-## License
-
-ISC License
