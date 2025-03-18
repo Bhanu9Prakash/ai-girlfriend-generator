@@ -35,6 +35,28 @@
 
       <!-- Main Content -->
       <main>
+        <!-- Privacy Disclaimer -->
+        <div class="privacy-disclaimer">
+          <div class="disclaimer-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <div class="disclaimer-content">
+            <h4>Your Privacy Matters</h4>
+            <p>
+              All your images and generations are stored
+              <strong>only on your device</strong> using browser localStorage.
+              We never store your uploads or generated images on our servers.
+            </p>
+            <p>
+              Images are temporarily processed by Google Gemini AI and
+              CodeFormer AI. They're briefly stored on our servers during
+              processing and cached (up to 1 hour) for browser viewing, then
+              automatically deleted. Permanent storage occurs only in your
+              browser's localStorage.
+            </p>
+          </div>
+        </div>
+
         <!-- Upload Section -->
         <div class="upload-section">
           <div class="upload-container" id="upload-container">
@@ -195,9 +217,6 @@
           <div class="action-buttons">
             <button id="download-btn" class="btn-primary">
               <i class="fas fa-download"></i> Download Image
-            </button>
-            <button id="share-btn" class="btn-secondary">
-              <i class="fas fa-share-alt"></i> Share
             </button>
             <button id="start-over-btn" class="btn-secondary">
               <i class="fas fa-redo"></i> Create Another

@@ -74,7 +74,7 @@ async function generateCoupleImage(inputImagePath, prompt, outputPath) {
       throw new Error("No image was generated in the response");
     }
 
-    // Clean up the uploaded image after processing
+    // Clean up the uploaded image after processing (for privacy)
     try {
       fs.unlinkSync(inputImagePath);
       console.log(`Cleaned up uploaded file: ${inputImagePath}`);

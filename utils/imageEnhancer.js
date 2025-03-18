@@ -52,7 +52,6 @@ async function enhanceImage(imagePath, fidelity, outputPath) {
 
     // Output from Replicate is typically a URL to the generated image
     console.log("Enhancement completed. Downloading result...");
-    console.log("Result URL:", output);
 
     // Download the enhanced image
     const response = await fetch(output);

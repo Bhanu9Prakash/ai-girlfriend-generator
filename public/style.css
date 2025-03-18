@@ -83,6 +83,43 @@ header p {
   transform: translateY(-2px);
 }
 
+/* Privacy Disclaimer */
+.privacy-disclaimer {
+  margin: 0 0 30px 0;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  border: 1px solid var(--gray-color);
+  display: flex;
+  gap: 15px;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.disclaimer-icon {
+  font-size: 2rem;
+  color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.disclaimer-content h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: var(--dark-color);
+}
+
+.disclaimer-content p {
+  margin: 5px 0;
+  font-size: 0.95rem;
+  color: #5a5a5a;
+}
+
+.disclaimer-content strong {
+  color: var(--dark-color);
+}
+
 /* Main Content Styles */
 main {
   display: flex;
@@ -778,6 +815,12 @@ footer .fa-heart {
 
   header p {
     font-size: 1rem;
+  }
+
+  .privacy-disclaimer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .upload-section, .prompt-section, .result-section {
