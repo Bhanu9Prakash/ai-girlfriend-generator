@@ -1,5 +1,6 @@
 
 # AI Girlfriend Generator
+![image](https://github.com/user-attachments/assets/81109f5b-89cb-4780-b977-9f9ddc23979c)
 
 An AI-powered web application that generates realistic girlfriend photos based on user uploads. Built with Express.js and Google's Generative AI.
 
